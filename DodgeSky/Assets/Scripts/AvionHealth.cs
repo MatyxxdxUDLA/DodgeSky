@@ -17,7 +17,7 @@ public class AvionHealth : MonoBehaviour
         if(health <= 0)
         {
             health = 0;
-            Destroy(gameObject);
+            //Destroy(gameObject);
             OnPlayerDeath?.Invoke();
         }
     }

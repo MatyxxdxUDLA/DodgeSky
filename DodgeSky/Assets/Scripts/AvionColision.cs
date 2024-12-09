@@ -8,13 +8,14 @@ public class AvionColision : MonoBehaviour
 {
     void Start()
     {
-        Destroy(gameObject, 10);
+        Destroy(gameObject, 7);
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.CompareTag("Player"))
         {
             collision.gameObject.GetComponent<AvionHealth>().TakeDamage(25);
+            Destroy(gameObject);
         }
     }
 }

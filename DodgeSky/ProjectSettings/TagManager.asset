@@ -8,6 +8,7 @@ TagManager:
   - Misil
   - Flame
   - Moneda
+  - PowerUp
   layers:
   - Default
   - TransparentFX

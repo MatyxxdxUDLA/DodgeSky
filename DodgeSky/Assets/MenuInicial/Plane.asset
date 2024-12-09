@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15b6e0a2eff2d674486c82bc24b730a1, type: 3}
+  m_Name: Plane
+  m_EditorClassIdentifier: 
+  personajeJugable: {fileID: 3324306738764377017, guid: 99f9279a1c7ba924293e470f17a83a74, type: 3}
+  imagen: {fileID: -3164809056393425246, guid: 7b026a441a9414d4f99efcecd2ae3fd9, type: 3}
+  nombre: Avion Lv 1
